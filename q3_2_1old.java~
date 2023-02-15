@@ -1,0 +1,16 @@
+import java.util.Scanner;
+public class q3_2_1old{
+  public static void main(String[]args){
+    Scanner sn = new Scanner(System.in);
+    System.out.print("Enter number of rows(m):");
+    int m = sn.nextInt();
+    System.out.print("Enter number of columns(n):");
+    int n = sn.nextInt();
+    for(int i=0;i<m;i++){
+      for(int j = 0;j<n;j++){
+        System.out.print("0\t");
+      }
+      System.out.println();
+    }
+  }
+}
